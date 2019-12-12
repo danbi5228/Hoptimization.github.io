@@ -169,8 +169,7 @@
                         moc_link_2018.geojson</a></p>
                   <p class="text-right"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
                         h_100m_cell_flow.geojson</a></p>
-                  <a class="nanumgothic" style="font-size: 13pt; font-style: italic;color:white">
-                             _   _ </a>
+                  
                   <p class="text-right"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
                         h_100m_cell_pop.geojson</a></p>
                   <p class="text-right"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
@@ -191,7 +190,7 @@
                 <p class="text-lett"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
                     2018년 기준 화성시 도로 네트워크 링크 정보</p></a>
                 <p class="text-lett"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
-                    2018년 특정일 기준. 100m x 100m 그리드에 시간별 유동인구 정보</p></a>
+                    2018년 특정일 기준 100m x 100m 그리드에 시간별 유동인구 정보</a></p>
                 <p class="text-lett"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
                     2019년 기준. 100m x 100m 그리드에 거주인구 정보</p></a>
                 <p class="text-lett"><a class="nanumgothic" style="font-size: 13pt; font-style: italic;">
@@ -221,14 +220,14 @@
                     '교통카드발행사ID',<br>
                     '총이용객수',&nbsp;
                     '사용자구분',<br>
-                    <a style="color:#546FB3;">'버스노선ID' (1~5)</a>
+                    <a style="color:#546FB3; font-weight: bold;">'버스노선ID' (1~5)</a>
                     ,<br>
-                    <a style="color:#A2CC60;">'승차역ID' (1~5)</a>
+                    <a style="color:#A2CC60; font-weight: bold;">'승차역ID' (1~5)</a>
                     ,<br>
-                    <a style="color:#A2CC60;">'하차역ID' (1~5)</a>
+                    <a style="color:#A2CC60; font-weight: bold;">'하차역ID' (1~5)</a>
                     ,<br>
-                    <a style="color:#A2CC60;">'최초승차역ID'</a>, <br>
-                    <a style="color:#A2CC60;">'최종하차역ID'</a>
+                    <a style="color:#A2CC60; font-weight: bold;">'최초승차역ID'</a>, <br>
+                    <a style="color:#A2CC60; font-weight: bold;">'최종하차역ID'</a>
                     ,<br>
                     '총이용금액', &nbsp;
                     '수집건수',<br>
@@ -251,19 +250,19 @@
                         <h5 class="feature-title font-bold mb-1" >routestationinfo.csv <br> routestationmapping.csv </h5>
                         <br><p class="grey-text mt-2" style="font-size: 11pt;">
                               'seq',&nbsp;
-                              <a style="color: #FFBAAB;">'pr_station_id'</a>,
+                              <a style="color: #FFBAAB; font-weight: bold;">'pr_station_id'</a>,
                               'bus_line_no',&nbsp;
                               'bus_line_no_seq',&nbsp;
-                              <a style="color: #8B4DCC;">'station_nm'</a>, 
-                              'station_id',&nbsp;
+                              <a style="color: #8B4DCC; font-weight: bold;">'station_nm'</a>, 
+                              <a style="color: #92B1FF; font-weight: bold;">'station_id'</a>,&nbsp;
                               'mobile_no' </p>
                           <hr class="mb-4">
                           <p class="grey-text mt-2" style="font-size: 11pt;">
                                   구분,&nbsp;
                                   운수사명,&nbsp;
                                   운수사ID,<br>
-                                  <a style="color: #FFBAAB;">이비노선ID</a>, &nbsp;                                 
-                                  <a style="color: #546FB3;">표준노선ID</a>,  &nbsp;                                 
+                                  <a style="color: #FFBAAB; font-weight: bold;">이비노선ID</a>, &nbsp;                                 
+                                  <a style="color: #546FB3; font-weight: bold;">표준노선ID</a>,  &nbsp;                                 
                                   노선명</p>
                 </div>
               </div>
@@ -440,9 +439,9 @@
                 <div class="col-10 mb-2">
                         <h5 class="feature-title font-bold mb-1" style="padding-top: 15px;">stations_table.csv</h5><br>
                         <p class="grey-text mt-2" style="font-size: 11pt;">
-                            <a style="color: #92B1FF;">'표준정류장ID'</a>, 
+                            <a style="color: #92B1FF; font-weight: bold;">'표준정류장ID'</a>, 
                               '시군명',<br>
-                            <a style="color: #8B4DCC;">'정류소명'</a>,<br>
+                            <a style="color: #8B4DCC; font-weight: bold;">'정류소명'</a>,<br>
                               '정류소영문명',<br>
                               '정류소번호',
                               '중앙차로여부',<br>
@@ -451,7 +450,7 @@
                               'WGS84위도',
                               'WGS84경도',<br>
                               '모바일정류장ID',<br>
-                              <a style="color: #A2CC60;">'이비카드정류장ID'</a> 
+                              <a style="color: #A2CC60; font-weight: bold;">'이비카드정류장ID'</a> 
                               
                         </p>
                 </div>
@@ -472,91 +471,10 @@
 
       <section>
 
-        <h2 class="my-5 h3 text-center", style="padding-top: 30px; font-size: 30pt;">Missing Data</h2>
-        <div style="padding-top: 40pt;">
-            <h5 class="notosanskr text-center" style="font-size: 18pt; font-weight: 600; padding-bottom: 30px;">미태그 하차 데이터</h5><br>
-            <p class="notosanskr text-center" style="font-style: italic;">
-                이용객 데이터에는 
-            <strong>태그를 하지 않은 이용객</strong>이 포함되어 있습니다. <br>
-                따라서 
-            <strong>환승횟수와 승하차역ID 개수가 맞지 않는</strong> 문제가 발생합니다.<br>
-                따라서 한 사람의 
-            <strong>환승경로의 일부</strong>만 파악할 수 있었습니다.
-            </p><br><br>
-        </div>
-        <div class="row features-small mb-5 mt-3 wow fadeIn">
+        <h2 class="my-5 h3 text-center", style="font-size: 30pt;">Missing Data</h2>
+        
 
-                <!--First column-->
-                <div class="col-md-4 flex-center" height="15px">
-                        <p class = "nanumgothic text-center">환승 1회<br></p>
-                      </div>
-                <!--/First column-->
-      
-                <!--Second column-->
-                <div class="col-md-4 flex-center">
-                        <p class = "nanumgothic text-center">환승 4회</p>
-                </div>
-                <!--/Second column-->
-
-                <div class="col-md-4 flex-center">
-                        <p class = "nanumgothic text-center">환승 5회</p>
-                </div>
-      
-              
-      
-              </div>
-              <div class="row features-small mb-5 mt-3 wow fadeIn" style="height: 0px;">
-
-                    <!--First column-->
-                    <div class="col-md-4 flex-center">
-                            <a class="nanumgothic text-center" style="font-size: 12pt; font-style: italic; color:red">
-                                승차역ID는 존재하나 하차역ID가 존재하지 않음</a>
-                          </div>
-                    <!--/First column-->
-          
-                    <!--Second column-->
-                    <div class="col-md-4 flex-center">
-                            <a class="nanumgothic text-center" style="font-size: 12pt; font-style: italic;color:red">
-                                    승차역ID는 3개, 하차역ID는 1개</a>
-                    </div>
-                    <!--/Second column-->
-    
-                    <div class="col-md-4 flex-center">
-                            <a class="nanumgothic text-center" style="font-size: 12pt; font-style: italic;color:red">
-                                    승차역ID는 3개, 하차역ID는 1개</a>
-                    </div>
-          
-                  
-          
-                  </div>
-        <div class="row features-small mb-5 mt-3 wow fadeIn">
-
-                <!--First column-->
-                <div class="col-md-4 flex-center">
-                        
-                        <img src="1_1_5.png" width="300px" height = "800px"
-                          class="z-depth-0 img-fluid">
-                      </div>
-                
-                <!--/First column-->
-      
-                <!--Second column-->
-                <div class="col-md-4 flex-center">
-                  <img src="1_1_3.png" width="300px" height = "800px"
-                    class="z-depth-0 img-fluid">
-                </div>
-                <!--/Second column-->
-      
-                <!--Third column-->
-                <div class="col-md-4 flex-center">
-                        <img src="1_1_4.png" width="300px" height = "800px"
-                          class="z-depth-0 img-fluid">
-                      </div>
-                <!--/Third column-->
-      
-              </div>
-
-        <div style="padding-top: 70pt;">
+        <div style="padding-top: 30pt;">
             <h5 class="notosanskr text-center" style="font-size: 18pt; font-weight: 600; padding-bottom: 30px;">버스정류장 데이터</h5><br>
             <p class="notosanskr text-center" style=" font-style: italic;">
                 경기도 버스정류장 정보 중 <strong>약 300개 </strong>데이터에 시군명 데이터에 결측값이 존재했습니다.<br>
@@ -588,8 +506,8 @@
                 <h5 class="notosanskr text-center" style="font-size: 18pt; font-weight: 600; padding-bottom: 30px;">4일치 데이터</h5>
                 <br><p class="notosanskr text-center" style="font-style: italic;">
                     모든 데이터는 <strong>2018년 7월 1일부터 4일</strong>까지의 정보를 기준으로 합니다.<br>
-                    따라서 주중, 주말 데이터를 따로 분류해서 보기에 너무 적은 데이터이고 (일,월,화,수) <br>
-                    분석의 정확성을 낮추었습니다 <br>
+                    따라서, 주중, 주말 트랜드의 깊이 있는 분석 등의 더욱 세밀하고 정교한 분석을 하기에는 적은 데이터라 판단했습니다 <br>
+  
                 </p><br><br>
                 <p class = "text-center">
                 <img src="2_1.png" width="300px" height = "300px"
