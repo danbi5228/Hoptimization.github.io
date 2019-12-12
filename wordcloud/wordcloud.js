@@ -14,7 +14,7 @@ function WordCloud(options) {
     var focus = svg.append('g')
                    .attr("transform", "translate(" + [w/2, h/2+margin.top] + ")")
   
-    var colorMap = ['#0339A6', '#A6A186'];
+    var colorMap = ['red', '#a38b07'];
   
     // seeded random number generator
     var arng = new alea('hello.');
